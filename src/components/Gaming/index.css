@@ -1,0 +1,239 @@
+.bg-cont-light {
+  color: antiquewhite;
+  width: 100%;
+}
+
+.bg-cont-light {
+  color: black;
+  width: 100%;
+}
+.subscription-cont-dark {
+  height: 200px;
+  padding: 20px;
+  color: #1e293b;
+  background-color: #0f0f0f;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delete-icon-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 200px;
+  width: 50%;
+}
+.delete-icon {
+  font-size: 30px;
+}
+.delete-icon-button {
+  background-color: transparent;
+  border-width: 0px;
+
+  cursor: pointer;
+}
+.subscription-cont-light {
+  height: 200px;
+  padding: 20px;
+  color: #1e293b;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subscription-icon {
+  width: 150px;
+  height: 40px;
+}
+
+.btn-dark {
+  background-color: transparent;
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+.videos-container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.bg-dark {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bg-light {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.head-dark {
+  color: white;
+}
+.head-light {
+  color: black;
+}
+.videos-container-dark {
+  background-color: #313131;
+}
+.delete-icon-dark {
+  color: white;
+  font-size: 50px;
+}
+.delete-icon-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.videos-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background-color: black;
+  padding: 20px;
+  min-height: 85vh;
+}
+.videos-container-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f4f4f4;
+  padding: 20px;
+  min-height: 85vh;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+  background-color: gainsboro;
+  width: 350px;
+  padding: 0px;
+  height: 30px;
+}
+
+.search-icon-input {
+  width: 300px;
+  height: 25px;
+}
+.search-icon {
+  font-size: 24px;
+  background-color: gainsboro;
+  margin-left: 6px;
+}
+
+.products-loader-container {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.uList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+.no-found-conatiner {
+  height: 100%;
+  width: 100%;
+}
+.retrybtn {
+  border-width: 0px;
+  background-color: violet;
+  color: white;
+  padding: 10px;
+  width: 100px;
+}
+.retry-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nofoundImage {
+  width: 600px;
+  height: 400px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+  max-height: 85vh;
+}
+.home-main-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-main-container-dark {
+  height: 100vh;
+  widows: 100vw;
+  background-color: #0f0f0f;
+}
+.main-content-container {
+  display: flex;
+  flex-direction: row;
+}
+.videos-container-dark {
+  height: 100%;
+  width: 100%;
+
+  background-color: #212121;
+}
+.videos-container-light {
+  height: 100%;
+  width: 100%;
+
+  background-color: #ebebeb;
+}
+.video-bg-cont {
+  height: 85vh;
+}
+
+.trending-head-container-dark {
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trending-head-container-light {
+  background-color: #ebebeb;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trending-heading-dark {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.trending-heading-light {
+  font-size: 50px;
+  color: #0f0f0f;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.trending-icon {
+  color: red;
+  font-size: 50px;
+  margin-right: 40px;
+}

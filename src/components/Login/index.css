@@ -1,0 +1,109 @@
+.bg-cont-dark {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.bg-cont-light {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.login-card-dark {
+  background-color: #0f0f0f;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.login-card-light {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust the color and blur radius here */
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nxtube-logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.input-containers {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.label-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.input-element {
+  margin-top: 10px;
+  background-color: transparent;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 24px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #64748b;
+}
+
+.input-element-dark {
+  margin-top: 10px;
+  background-color: transparent;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 24px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #64748b;
+  color: white;
+}
+
+::placeholder {
+  font-size: 10px;
+
+  font-weight: 500;
+}
+
+.check-box-container {
+  display: flex;
+
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.login-button {
+  background-color: #3b82f6;
+  color: white;
+  width: 100%;
+  padding: 6px;
+  border-width: 0px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}

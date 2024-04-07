@@ -1,0 +1,65 @@
+.gcard-container {
+  margin-bottom: 20px;
+
+  width: 250px;
+  padding: 10px;
+}
+
+.gimg {
+  width: 200px;
+  height: 300px;
+  margin-top: 5px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.tvideo-details-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  align-items: flex-start;
+}
+
+.chanel-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.ghead-dark {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.ghead-light {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.gpara-dark {
+  font-size: 18px;
+  color: whitesmoke;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.gpara-light {
+  font-size: 18px;
+  color: black;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.gdot-icon {
+  margin-top: 10px;
+}
+
+.gvideos-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}

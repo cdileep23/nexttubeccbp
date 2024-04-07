@@ -1,0 +1,46 @@
+.active-container-dark {
+  background-color: rgb(58, 56, 56);
+}
+
+.active-container-light {
+  background-color: rgb(223, 212, 212);
+}
+
+.active-icon {
+  color: red;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #7e858e;
+}
+.head {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.heading-light {
+  color: black;
+  font-size: 15px;
+}
+.different-categories-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.section-link {
+  text-decoration: none;
+}
+.section-link {
+  color: inherit; /* Use the color inherited from the parent */
+  text-decoration: none; /* Remove default underline */
+}
+
+.section-link:visited {
+  color: inherit; /* Set the color for visited link */
+}

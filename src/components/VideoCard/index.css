@@ -1,0 +1,62 @@
+.card-container {
+  width: 360px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.img {
+  width: 350px;
+  height: 200px;
+  margin-top: 5px;
+}
+.link {
+  text-decoration: none;
+}
+
+.video-details-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  align-items: flex-start;
+}
+
+.chanel-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.head-dark {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.head-light {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.para-dark {
+  font-size: 18px;
+  color: whitesmoke;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.para-light {
+  font-size: 18px;
+  color: black;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.dot-icon {
+  margin-top: 10px;
+}
+
+.videos-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
